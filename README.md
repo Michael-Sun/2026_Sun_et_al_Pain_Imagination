@@ -8,6 +8,7 @@ This repository contains analysis code associated with:
 The code implements univariate, multivariate, and representational similarity analyses used to compare neural responses to experienced and imagined pain within individuals using deep-phenotyping fMRI data.
 
 ---
+
 ## Repository Structure
 
 - **BehavioralSelfReport/**  
@@ -21,6 +22,30 @@ The code implements univariate, multivariate, and representational similarity an
 
 - **RepresentationalSimilarity/**  
   Representational similarity analyses (RSA) assessing multivariate pattern similarity between experienced and imagined pain across cortical and subcortical regions.
+
 ---
 
-## Softwar
+## Software Requirements
+
+Analyses were conducted primarily in **MATLAB**, using:
+- CANlab neuroimaging tools  
+- RSA toolbox  
+- SPM (for preprocessing and GLM estimation)  
+
+Exact software versions and parameters are reported in the manuscript and Supplementary Methods (COBIDAS-compliant).
+
+---
+
+## Data Availability
+
+Neuroimaging and behavioral data used in this study will be made publicly available upon acceptance of the manuscript, consistent with institutional guidelines and journal policy.  
+Until that time, this repository provides all analysis code required to reproduce the reported results once the data are released.
+
+---
+
+## Notes
+
+This repository is intended to support transparency and reproducibility.  
+Scripts are organized to reflect the analysis workflow described in the manuscript but are not designed as a turn-key pipeline.
+
+For questions, please contact the corresponding author.
